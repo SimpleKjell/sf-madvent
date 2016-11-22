@@ -122,10 +122,10 @@ class SFMAdvent
 		//wp_enqueue_script('canvg-js');
 
 
-		wp_register_script('prb-custom-js', sfmadvent_url.'js/custom.js',array('jquery', 'parsley-js'));
+		wp_register_script('sfm-custom-js', sfmadvent_url.'js/custom.js',array('jquery', 'parsley-js'));
 		// ajaxurl mitgeben
-		wp_localize_script( 'prb-custom-js', 'Custom', array('ajaxurl'  => admin_url( 'admin-ajax.php' ),'homeurl' => home_url()));
-		wp_enqueue_script('prb-custom-js');
+		wp_localize_script( 'sfm-custom-js', 'Custom', array('ajaxurl'  => admin_url( 'admin-ajax.php' ),'homeurl' => home_url()));
+		wp_enqueue_script('sfm-custom-js');
 
 	}
 }
