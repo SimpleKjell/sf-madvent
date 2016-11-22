@@ -39,14 +39,23 @@ class SFMShortCode {
           ?>
             <div class="sfm_calendar_element">
 
-              <div class="element_schleife">
-                <img src="<?php echo sfmadvent_url.'templates/'.sfmadvent_template.'/img/schleife.png';?>" />
+
+              <div class="left">
+                <div class="element_schleife">
+                  <img src="<?php echo sfmadvent_url.'templates/'.sfmadvent_template.'/img/schleife.png';?>" />
+                </div>
+                <div class="element_inner">
+                  <?php echo $i;?>
+                </div>
               </div>
-              <div class="element_inner">
-                <?php echo $i;?>
+              <div class="right">
+                <div class="element_schleife">
+                  <img src="<?php echo sfmadvent_url.'templates/'.sfmadvent_template.'/img/schleife.png';?>" />
+                </div>
+                <div class="element_inner">
+                  <?php echo $i;?>
+                </div>
               </div>
-              <div class="left"></div>
-              <div class="right"></div>
             </div>
           <?php
           if($i %4 == 0) {
