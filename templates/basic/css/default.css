@@ -125,37 +125,37 @@ z-index: 2;
 }
 
 .sfm_calendar_container .sfm_calendar_element .sfm_left .element_inner {
-  margin-left: -10px;
+  margin-left: -12px;
 }
 
 .sfm_calendar_container .sfm_calendar_element .sfm_right .element_inner {
-  margin-left: -85px;
+  margin-left: -87px;
 }
 
 
 
 .sfm_calendar_container .sfm_calendar_element .element_schleife {
   display: inline-block;
-  margin-top: 4.5px;
+  margin-top: 10.5px;
 }
 .sfm_calendar_container .sfm_calendar_element .element_schleife img {
     width: 64px;
 }
 .sfm_calendar_container .sfm_calendar_element .sfm_left .element_schleife {
   display: inline-block;
-  margin-top: 4.5px;
+  margin-top: 10.5px;
   left: 50%;
   position: absolute;
   width: 50px;
-  margin-left: 16px;
+  margin-left: 14px;
 }
 .sfm_calendar_container .sfm_calendar_element .sfm_right .element_schleife {
   display: inline-block;
-  margin-top: 4.5px;
+  margin-top: 10.5px;
   left: 50%;
   position: absolute;
   width: 50px;
-  margin-left: -59px;
+  margin-left: -61px;
 }
 
 

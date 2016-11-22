@@ -39,7 +39,9 @@ class SFMShortCode {
           ?>
             <div class="sfm_calendar_element">
 
-
+              <div class="sfm_inner_content">
+                <img src="<?php echo sfmadvent_url.'templates/'.sfmadvent_template.'/img/tag'.$i.'.jpg';?>" />
+              </div>
               <div class="sfm_left">
                 <div class="element_schleife">
                   <img src="<?php echo sfmadvent_url.'templates/'.sfmadvent_template.'/img/schleife.png';?>" />
