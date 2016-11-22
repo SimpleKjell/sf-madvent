@@ -1,8 +1,7 @@
 <?php
 class SFMShortCode {
 
-  var $options;
-  var $session;
+  var $options;  
 
   function __construct()
 	{

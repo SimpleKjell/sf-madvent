@@ -71,7 +71,7 @@ class SFMAdvent
   public function set_admin_classes()
 	{
     $this->classes_array = array(
-      //"prbadmin" =>"prb.prbreakfast.admin",
+      "sfmadmin" =>"sfm.sfmadvent.admin",
 		);
 	}
 
