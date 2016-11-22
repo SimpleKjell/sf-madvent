@@ -40,7 +40,7 @@ class SFMShortCode {
             <div class="sfm_calendar_element">
 
 
-              <div class="left">
+              <div class="sfm_left">
                 <div class="element_schleife">
                   <img src="<?php echo sfmadvent_url.'templates/'.sfmadvent_template.'/img/schleife.png';?>" />
                 </div>
@@ -48,7 +48,7 @@ class SFMShortCode {
                   <?php echo $i;?>
                 </div>
               </div>
-              <div class="right">
+              <div class="sfm_right">
                 <div class="element_schleife">
                   <img src="<?php echo sfmadvent_url.'templates/'.sfmadvent_template.'/img/schleife.png';?>" />
                 </div>

@@ -22,11 +22,11 @@ SFMFrontEnd.prototype = {
 
 		jQuery('.sfm_calendar_element').click(function() {
 
-			jQuery(this).find('.left').animate({
+			jQuery(this).find('.sfm_left').animate({
 				left: '-100%'
 			}, 2500);
 
-			jQuery(this).find('.right').animate({
+			jQuery(this).find('.sfm_right').animate({
 				right: '-100%'
 			}, 2500);
 

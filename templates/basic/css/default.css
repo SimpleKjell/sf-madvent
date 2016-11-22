@@ -63,7 +63,7 @@ z-index: 2;
 }
 
 
-.sfm_calendar_container .sfm_calendar_element .left {
+.sfm_calendar_container .sfm_calendar_element .sfm_left {
   width: 75px;
   height: 100%;
   position: absolute;
@@ -79,7 +79,7 @@ z-index: 2;
   -moz-transition: left 0.5s;
   transition: left 0.5s;*/
 }
-.sfm_calendar_container .sfm_calendar_element .right {
+.sfm_calendar_container .sfm_calendar_element .sfm_right {
   width: 75px;
   height: 100%;
   position: absolute;
@@ -124,11 +124,11 @@ z-index: 2;
   margin-top: -38px;
 }
 
-.sfm_calendar_container .sfm_calendar_element .left .element_inner {
+.sfm_calendar_container .sfm_calendar_element .sfm_left .element_inner {
   margin-left: -10px;
 }
 
-.sfm_calendar_container .sfm_calendar_element .right .element_inner {
+.sfm_calendar_container .sfm_calendar_element .sfm_right .element_inner {
   margin-left: -85px;
 }
 
@@ -141,7 +141,7 @@ z-index: 2;
 .sfm_calendar_container .sfm_calendar_element .element_schleife img {
     width: 64px;
 }
-.sfm_calendar_container .sfm_calendar_element .left .element_schleife {
+.sfm_calendar_container .sfm_calendar_element .sfm_left .element_schleife {
   display: inline-block;
   margin-top: 4.5px;
   left: 50%;
@@ -149,7 +149,7 @@ z-index: 2;
   width: 50px;
   margin-left: 16px;
 }
-.sfm_calendar_container .sfm_calendar_element .right .element_schleife {
+.sfm_calendar_container .sfm_calendar_element .sfm_right .element_schleife {
   display: inline-block;
   margin-top: 4.5px;
   left: 50%;
