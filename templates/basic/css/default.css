@@ -38,13 +38,13 @@
 }
 .sfm_calendar_container .sfm_calendar_element {
   display: inline-block;
-  width: 150px;
+  width: 120px;
 
   color: #fff;
-  font-size: 35px;
+  font-size: 28px;
   text-align: center;
-  height: 150px;
-  line-height: 80px;
+  height: 120px;
+  line-height: 65px;
   font-family: prelo-semi;
   border-radius: 10px;
   vertical-align: top;
@@ -64,7 +64,7 @@ z-index: 2;
 
 
 .sfm_calendar_container .sfm_calendar_element .sfm_left {
-  width: 75px;
+  width: 60px;
   height: 100%;
   position: absolute;
   top: 0;
@@ -80,7 +80,7 @@ z-index: 2;
   transition: left 0.5s;*/
 }
 .sfm_calendar_container .sfm_calendar_element .sfm_right {
-  width: 75px;
+  width: 60px;
   height: 100%;
   position: absolute;
   top: 0;
@@ -115,21 +115,21 @@ z-index: 2;
 
 .sfm_calendar_container .sfm_calendar_element .element_inner {
   position: absolute;
-  width: 90px;
-  height: 80px;
+  width: 73px;
+  height: 65px;
   border: 4px solid #fff;
   top: 50%;
   left: 50%;
   margin-left: -49px;
-  margin-top: -38px;
+  margin-top: -32px;
 }
 
 .sfm_calendar_container .sfm_calendar_element .sfm_left .element_inner {
-  margin-left: -12px;
+  margin-left: -11px;
 }
 
 .sfm_calendar_container .sfm_calendar_element .sfm_right .element_inner {
-  margin-left: -87px;
+  margin-left: -71px;
 }
 
 
@@ -143,19 +143,19 @@ z-index: 2;
 }
 .sfm_calendar_container .sfm_calendar_element .sfm_left .element_schleife {
   display: inline-block;
-  margin-top: 10.5px;
+  margin-top: 3.5px;
   left: 50%;
   position: absolute;
   width: 50px;
-  margin-left: 14px;
+  margin-left: 6px;
 }
 .sfm_calendar_container .sfm_calendar_element .sfm_right .element_schleife {
   display: inline-block;
-  margin-top: 10.5px;
+  margin-top: 3.5px;
   left: 50%;
   position: absolute;
   width: 50px;
-  margin-left: -61px;
+  margin-left: -54px;
 }
 
 
