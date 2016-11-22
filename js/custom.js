@@ -31,5 +31,10 @@ SFMFrontEnd.prototype = {
 			}, 2500);
 
 		});
+
+
+		jQuery.fn.snow();
+		//jQuery('.sfm_calendar_container')
+
 	},
 }

@@ -100,7 +100,7 @@ class SFMAdvent
   public function add_front_end_styles()
 	{
 
-    
+
 
     /* Bootstrap */
 		//wp_register_style( 'sfgewinnspiel_bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
@@ -114,6 +114,9 @@ class SFMAdvent
 		/* Custom style */
 		wp_register_style( 'prbreakfast_style', sfmadvent_url.'templates/'.sfmadvent_template.'/css/default.css');
 		wp_enqueue_style('prbreakfast_style');
+
+    wp_register_script('snow-js', sfmadvent_url.'js/snow.min.js',array('jquery'));
+		wp_enqueue_script('snow-js');
 
     // parsley.js
     //wp_register_script('parsley-js', sfprbreakfast_url.'libs/parsley/parsley.min.js',array('jquery'));
