@@ -111,8 +111,8 @@ class SFMAdvent
 		//wp_enqueue_style('prbreakfast_font_awesome');
 
 		/* Custom style */
-		//wp_register_style( 'prbreakfast_style', sfprbreakfast_url.'templates/'.sfprbreakfast_template.'/css/default.css');
-		//wp_enqueue_style('prbreakfast_style');
+		wp_register_style( 'prbreakfast_style', sfmadvent_url.'templates/'.sfmadvent_template.'/css/default.css');
+		wp_enqueue_style('prbreakfast_style');
 
     // parsley.js
     //wp_register_script('parsley-js', sfprbreakfast_url.'libs/parsley/parsley.min.js',array('jquery'));

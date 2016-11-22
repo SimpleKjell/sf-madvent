@@ -1,4 +1,15 @@
 /*
+* START Fonts
+*/
+@font-face {
+  font-family: 'prelo-semi';
+  src: url('fonts/PreloSlab-SemiBold.otf');
+}
+/*
+* END Fonts
+*/
+
+/*
 * START Allgemeine Klassen
 */
 
@@ -12,229 +23,63 @@
   margin-bottom: 25px;
 }
 
-
 /*
 * END Allgemeine Klassen
 */
-.prb_footerspace {
-
-	margin-left: 70px;
-}
-
-.icon-menu { color: #000; }
-
 
 /*
-
-
-
-
-
-
-/*
-* Start Form *
+* START KALENDER
 */
-
-.prb_form_container .prb_form input.prb_input, #prb_form_send, .prb_form_container .prb_form input.prb_input:focus::-webkit-input-placeholder {
-
-	-webkit-transition: all 300ms ease-in-out;
-	transition: all 300ms ease-in-out;
+.sfm_calendar_container {
+  /*padding: 10px 40px;*/
 }
-
-.prb_form_container .prb_form input.prb_input {
-
-	margin: 1% 0% 0 13%;
-	width: 360px;
-	padding: 20px;
-	display: block;
-	float: left;
-	border: none;
-	background: -webkit-linear-gradient(rgba(255,255,255,0) 99%, #EB6CA3 1%);
-	background: linear-gradient(rgba(255,255,255,0) 99%, #EB6CA3 1%);
-	background-size: 0 100%;
-	background-repeat: no-repeat;
-	color: #333333;
+.sfm_calendar_container .sfm_calendar_inner {
+  text-align: center;
 }
-
-.prb_form_container .prb_form input.prb_input:focus, .prb_form_select:focus {
-
-	outline: none;
-	background-size: 100% 100%;
-	background-color: #fff !important;
+.sfm_calendar_container .sfm_calendar_element {
+  display: inline-block;
+  width: 150px;
+  background-color: #EC008B;
+  color: #fff;
+  font-size: 35px;
+  text-align: center;
+  height: 150px;
+  line-height: 80px;
+  font-family: prelo-semi;
+  border-radius: 10px;
+  vertical-align: top;
+  position: relative;
+  margin: 5px;
+  cursor: pointer;
 }
-
-.prb_form_container .prb_form input.prb_input:focus::-webkit-input-placeholder {
-
-	font-size:11px;
-	font-weight: 600;
-	-webkit-transform: translateY(-15px);
-	transform: translateY(-15px);
-	visibility: visible !important;
-	color: #EB6CA3;
+.sfm_calendar_container .sfm_calendar_element:hover {
+  -webkit-box-shadow: 10px 20px 143px 27px rgba(0,0,0,0.49);
+-moz-box-shadow: 10px 20px 143px 27px rgba(0,0,0,0.49);
+box-shadow: 10px 20px 143px 27px rgba(0,0,0,0.49);
+z-index: 2;
 
 }
 
-/* Die Selectbox */
-
-.prb_form_select {
-
-	display:block;
-	margin: 1% 11% 0 13%;
-	padding: 20px;
-	float: left;
-	color: #333 !important;
-	background: -webkit-linear-gradient(rgba(255,255,255,0) 99%, #EB6CA3 1%);
-	background: linear-gradient(rgba(255,255,255,0) 99%, #EB6CA3 1%);
-	background-size: 0 100%;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	-o-appearance: none;
-	-ms-appearance: none;
-	appearance: none;
+.sfm_calendar_container .sfm_calendar_element .element_inner {
+  position: absolute;
+  width: 90px;
+  height: 80px;
+  border: 4px solid #fff;
+  top: 50%;
+  left: 50%;
+  margin-left: -49px;
+  margin-top: -38px;
 }
-
-/* Die Form Checkbox*/
-
-.prb_form_checkbox {
-
-	float: left;
-	display: inline-block;
-	margin: 3% 0% 0% 7%;
+.sfm_calendar_container .sfm_calendar_element .element_schleife {
+  display: inline-block;
+  margin-top: 4.5px;
 }
-
-#prb_form_checkboxid { opacity: 0; }
-
-.prb_form_btn {
-
-	float:left;
-	width: 40px;
-	height: 20px;
-	background: #e5e5e5;
-	position: relative;
-	border-radius: 10px;
-}
-
-.prb_form_btn:before {
-
-	content: "";
-	position: absolute;
-	height: 16px;
-	width: 16px;
-	background: #fff;
-	left: 2px;
-	top: 2px;
-	transition: all 150ms ease-out;
-	border-radius: 10px;
-
-}
-
-/*Funktion um die Checkbox zu switchen*/
-
-input[type=checkbox]:checked + .prb_form_btn:before { left: 22px; }
-
-input[type=checkbox]:checked + .prb_form_btn { background: #EB6CA3; }
-
-/* Checkbox Beschreibung */
-
-.prb_form_checkbox label {
-
-	font-weight: 400 !important;
-	margin-left: 10px;
-	font-size: 13px;
-}
-
-/* Senden Button */
-
-#prb_form_send {
-
-	background: #dadada;
-	border: none;
-	color: #333;
-	width: 200px;
-	margin: 4% 10% 0% 10%;
-	cursor: pointer;
-	text-transform: uppercase;
-	font-weight:600;
-	left: 40%;
-	transform: translateX(-50%);
-}
-
-#prb_form_send:hover, #prb_form_send:focus {
-
-	background: #EB6CA3 !important;
-	color: #fff;
-
-}
-
-
-/* Abschlussmeldung */
-
-.prb_form_abschlusscreen {
-	text-align: center;
-	display: none;
-}
-
-.prb_form_abschlusscreen span {
-
-	color: #EB6CA3;
-	font-weight: 600;
-}
-
-
-.parsley-errors-list {
-	
-	display: none;
-	
+.sfm_calendar_container .sfm_calendar_element .element_schleife img {
+    width: 64px;
 }
 
 
 
 /*
-* End Form *
-*/
-
-
-/*
-* Mobile Anpassungen
-*/
-
-
-/*Für Mobilphones bis 600 Pixel*/
-
-@media screen and (max-width: 600px) {
-
-	h2 { font-size: 21px !important;}
-	.prb_form_container .prb_form input.prb_input { margin: 2% 0 0 0; }
-	.prb_form_select { margin: 2% 0 0 0; }
-	.prb_form_checkbox { margin: 15px 0 0 0; }
-	#prb_form_checkboxid { margin-left: 48px;}
-	.prb_form_btn { margin-right: 24px; }
-
-	.prb_footerspace { margin-left: 0; }
-	.prb_footerspace img { width: 80px;}
-	.prb_footerspace1 img { width: 200px;}
-	
-	
-	#Footer {
-		text-align:center;
-	}
-
-	.icon-search { display:none; }
-	}
-
- /* Für alle Geräte die Größer sind bis 1239px */
-
-@media screen and (min-width: 600px) and (max-width: 1239px) {
-
-	.prb_form_container .prb_form input.prb_input { margin: 1% 0% 0 8%; width: 39%; }
-	.prb_form_select { margin: 1% 11% 0 8%; width: 39%;}
-	.prb_form_checkbox { margin: 3% 0% 0% 10%; }
-	.prb_footerspace img { display:none;}
-	.prb_footerspace { margin-left: 0; }
-				
-}
-
-
-/*
-* Ende der Mobilen Anpassungen *
+* END KALENDER
 */
