@@ -38,12 +38,15 @@ class SFMShortCode {
         for($i=1; $i<=24; $i++) {
           ?>
             <div class="sfm_calendar_element">
+
               <div class="element_schleife">
                 <img src="<?php echo sfmadvent_url.'templates/'.sfmadvent_template.'/img/schleife.png';?>" />
               </div>
               <div class="element_inner">
                 <?php echo $i;?>
               </div>
+              <div class="left"></div>
+              <div class="right"></div>
             </div>
           <?php
           if($i %4 == 0) {
