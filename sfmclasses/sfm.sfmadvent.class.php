@@ -100,6 +100,7 @@ class SFMAdvent
   public function add_front_end_styles()
 	{
 
+    var_dump('test');
 
     /* Bootstrap */
 		//wp_register_style( 'sfgewinnspiel_bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
@@ -121,6 +122,7 @@ class SFMAdvent
     //wp_register_script('canvg-js', sfgewinnspiel_url.'js/canvg.js',array('jquery'));
 		//wp_enqueue_script('canvg-js');
 
+    var_dump(sfmadvent_url.'js/custom.js');
 
 		wp_register_script('sfm-custom-js', sfmadvent_url.'js/custom.js',array('jquery', 'parsley-js'));
 		// ajaxurl mitgeben
