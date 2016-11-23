@@ -108,8 +108,8 @@ class SFMAdvent
 
 
 		/* Font Awesome */
-		//wp_register_style( 'prbreakfast_font_awesome', sfprbreakfast_url.'libs/font-awesome/font-awesome.min.css');
-		//wp_enqueue_style('prbreakfast_font_awesome');
+		wp_register_style( 'sfmadvent_font_awesome', sfprbreakfast_url.'libs/font-awesome/font-awesome.min.css');
+		wp_enqueue_style('sfmadvent_font_awesome');
 
 		/* Custom style */
 		wp_register_style( 'prbreakfast_style', sfmadvent_url.'templates/'.sfmadvent_template.'/css/default.css');
