@@ -24,6 +24,21 @@ SFMFrontEnd.prototype = {
 	},
 	calendarEffect: function() {
 
+
+		jQuery('.sfm_calendar_element').each(function(index) {
+
+			jQuery(this).find('.sfm_left').delay(100*index).fadeIn(300);
+			jQuery(this).find('.sfm_right').delay(100*index).fadeIn(300);
+			jQuery(this).find('.sfm_inner_content').delay(100*index).fadeIn(1000);
+			//jQuery(this).delay(400*index).fadeIn(300);
+			//jQuery(this).delay(400*index).fadeIn(300).css('display', 'inline-block');
+			//jQuery(this).delay(400*index).css('display', 'inline-block');
+		})
+
+
+		//jQuery('.sfm_calendar_element').toggle( "bounce", { times: 3 },'fast');
+
+
 		jQuery('.sfm_calendar_element').click(function() {
 
 			jQuery(this).find('.sfm_left').animate({

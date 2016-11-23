@@ -37,6 +37,7 @@
   text-align: center;
 }
 .sfm_calendar_container .sfm_calendar_element {
+
   display: inline-block;
   width: 120px;
 
@@ -78,6 +79,7 @@ z-index: 2;
   -webkit-transition: left 0.5s;
   -moz-transition: left 0.5s;
   transition: left 0.5s;*/
+  display: none;
 }
 .sfm_calendar_container .sfm_calendar_element .sfm_right {
   width: 60px;
@@ -94,9 +96,12 @@ z-index: 2;
   -webkit-transition: left 0.5s;
   -moz-transition: left 0.5s;
   transition: left 0.5s;*/
+  display: none;
 }
 
-
+.sfm_inner_content {
+  display: none;
+}
 
 /*.sfm_calendar_container .sfm_calendar_element:hover .left { left: -75px; }
 .sfm_calendar_container .sfm_calendar_element:hover .right { left: 150px; }*/
@@ -184,8 +189,8 @@ z-index: 2;
 	float: left;
 	border: none;
 	background: -webkit-linear-gradient(rgba(255,255,255,0) 99%, #EB6CA3 1%);
-	background: linear-gradient(rgba(255,255,255,0) 99%, #EB6CA3 1%); 
-	
+	background: linear-gradient(rgba(255,255,255,0) 99%, #EB6CA3 1%);
+
 	background-color: #fff;
 	background-size: 0 100%;
 	background-repeat: no-repeat;
@@ -236,7 +241,7 @@ z-index: 2;
 	float: left;
 	display: inline-block;
 	margin: 3% 0% 0% 8%;
-	
+
 }
 
 #sfm_form_checkboxid { opacity: 0; }
@@ -301,15 +306,15 @@ input[type=checkbox]:checked + .sfm_form_btn { background: #72BF44; }
 #sfm_form_send:hover {
 
 	background: #EC008C !important;
-	
+
 
 }
 
 #sfm_form_send:focus {
-	
+
 	background: #FF28A5 !important;
-	
-	
+
+
 }
 
 /* Abschlussmeldung */
@@ -327,9 +332,9 @@ input[type=checkbox]:checked + .sfm_form_btn { background: #72BF44; }
 
 
 .parsley-errors-list {
-	
+
 	display: none;
-	
+
 }
 
 .sfm_anmeldentext {
@@ -337,12 +342,9 @@ input[type=checkbox]:checked + .sfm_form_btn { background: #72BF44; }
 	/*background: rgba(153,153,153,0.8); */
 	padding: 3% 0 1% 0 !important;
 	margin: 0 0 1% 0 !important;
-	
+
 }
 
 /*
 * End Form *
 */
-
-
-
