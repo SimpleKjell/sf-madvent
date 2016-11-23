@@ -24,8 +24,13 @@ SFMFrontEnd.prototype = {
 	},
 	calendarEffect: function() {
 
+		jQuery('.sfm_calendar_element').hover(function() {
+			//jQuery(this).effect('shake')
+		})
 
 		jQuery('.sfm_calendar_element').each(function(index) {
+
+			//jQuery(this).addClass('animate');
 
 			jQuery(this).find('.sfm_left').delay(100*index).fadeIn(300);
 			jQuery(this).find('.sfm_right').delay(100*index).fadeIn(300);

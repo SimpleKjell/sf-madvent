@@ -79,7 +79,6 @@ z-index: 2;
   -webkit-transition: left 0.5s;
   -moz-transition: left 0.5s;
   transition: left 0.5s;*/
-  display: none;
 }
 .sfm_calendar_container .sfm_calendar_element .sfm_right {
   width: 60px;
@@ -96,12 +95,21 @@ z-index: 2;
   -webkit-transition: left 0.5s;
   -moz-transition: left 0.5s;
   transition: left 0.5s;*/
-  display: none;
 }
 
-.sfm_inner_content {
+.sfm_calendar_container .sfm_calendar_element .sfm_left, .sfm_calendar_container .sfm_calendar_element .sfm_right, .sfm_inner_content {
   display: none;
+  /*transform: scale(0);
+  transition: all 5s;*/
 }
+/*.sfm_calendar_element {
+    transform: scale(0);
+}
+.sfm_calendar_element.animate {
+  transform: scale(1);
+}*/
+
+
 
 /*.sfm_calendar_container .sfm_calendar_element:hover .left { left: -75px; }
 .sfm_calendar_container .sfm_calendar_element:hover .right { left: 150px; }*/
