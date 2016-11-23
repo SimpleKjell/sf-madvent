@@ -21,7 +21,7 @@ class SFMShortCode {
 	{
     // Frontend Kalender
     add_shortcode( 'sfmadvent_calendar', array(&$this,'sfmadvent_calendar_function') );
-		
+
 	// Frontend Form
     add_shortcode( 'sfmadvent_form', array(&$this,'sfmadvent_form_function') );
 
@@ -31,9 +31,9 @@ class SFMShortCode {
 
 	}
 
-	
+
 	// Form Funktion
-	
+
 	 public function sfmadvent_form_function($atts)
   {
     ob_start();
@@ -47,7 +47,7 @@ class SFMShortCode {
     		<input class="sfm_input" type="tel" id="tel" placeholder="Handynummer (optional)" required="">
     		<input class="sfm_input" type="email" id="mail" placeholder="E-Mail" required="">
     		<div class="clear"></div>
-    		
+
     		<div class="sfm_form_checkbox"><label for="sfm_form_checkboxid"><input id="sfm_form_checkboxid" type="checkbox" checked name="newsletter" value="newsletter">Ich habe die AGB's gelesen und verstanden.<div class="sfm_form_btn"></div></label></div>
     		<div class="clear"></div><input class="sfm_input" type="submit" value="absenden" id="sfm_form_send">
 
@@ -67,8 +67,8 @@ class SFMShortCode {
   }
 
 	/* Ende der Form Funktion */
-	
-	
+
+
   public function sfmadvent_calendar_function($atts)
   {
     ob_start();
@@ -81,7 +81,7 @@ class SFMShortCode {
             <div class="sfm_calendar_element">
 
               <div class="sfm_inner_content">
-                <img src="<?php echo sfmadvent_url.'templates/'.sfmadvent_template.'/img/tag1.jpg';?>" />
+                <img src="<?php echo sfmadvent_url.'templates/'.sfmadvent_template.'/img/tag'.$i.'.jpg';?>" />
               </div>
               <div class="sfm_left">
                 <div class="element_schleife">
