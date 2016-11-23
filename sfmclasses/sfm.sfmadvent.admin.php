@@ -19,7 +19,7 @@ class SFMAdmin
 
 		/* Priority actions */
 		//add_action('admin_menu', array(&$this, 'add_menu'), 9);
-    //add_action('admin_enqueue_scripts', array(&$this, 'add_admin_styles'), 9);
+    add_action('admin_enqueue_scripts', array(&$this, 'add_admin_styles'), 9);
 		//add_action('admin_init', array(&$this, 'admin_init'), 9);
 
 
@@ -54,8 +54,8 @@ class SFMAdmin
 
 
     /* Custom style */
-    //wp_register_style( 'prbreakfast_admin_style', sfprbreakfast_url.'admin/css/custom_admin.css');
-    //wp_enqueue_style('prbreakfast_admin_style');
+    wp_register_style( 'sfmadvent_admin_style', sfmadvent_url.'admin/css/custom_admin.css');
+    wp_enqueue_style('sfmadvent_admin_style');
 
     //wp_register_script('sfprb_custom_admin_js', sfprbreakfast_url.'admin/js/admin_custom.js',array('jquery'));
 		// ajaxurl mitgeben

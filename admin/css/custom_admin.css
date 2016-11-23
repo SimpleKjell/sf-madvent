@@ -1,0 +1,50 @@
+/* Custom Admin CSS */
+.hidden {
+  display: none;
+}
+.marginTopMedium {
+  margin-top: 25px;
+}
+.marginBottomMedium {
+  margin-bottom: 25px;
+}
+/*
+* START FORM SETTINGS
+*/
+#step_by_step_table .element p {
+  border: 1px solid;
+    display: inline-block;
+    padding: 0 10px;
+}
+#step_by_step_table .firstTd {
+  width: 100px;
+}
+/*
+* END FORM SETTINGS
+*/
+
+/*
+* START DISPLAY SUB INFO
+*/
+.subInfo {
+  padding: 20px;
+}
+.subInfo .field {
+  width: 350px;
+      border: 1px solid #e5e5e5;
+      padding: 10px;
+      display: inline-block;
+      margin: 10px;
+}
+
+.subInfo .field .label, .subInfo .field .value {
+  display: inline-block;
+}
+.subInfo .field .label {
+  font-weight: bold;
+  width: 150px;
+}
+
+/*
+* END DISPLAY SUB INFO
+*/

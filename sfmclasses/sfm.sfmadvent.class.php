@@ -119,8 +119,8 @@ class SFMAdvent
 		wp_enqueue_script('snow-js');
 
     // parsley.js
-    //wp_register_script('parsley-js', sfprbreakfast_url.'libs/parsley/parsley.min.js',array('jquery'));
-		//wp_enqueue_script('parsley-js');
+    wp_register_script('parsley-js', sfmadvent_url.'libs/parsley/parsley.min.js',array('jquery'));
+		wp_enqueue_script('parsley-js');
 
     //wp_register_script('canvg-js', sfgewinnspiel_url.'js/canvg.js',array('jquery'));
 		//wp_enqueue_script('canvg-js');
