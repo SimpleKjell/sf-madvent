@@ -108,12 +108,12 @@ class SFMAdvent
 
 
 		/* Font Awesome */
-		wp_register_style( 'sfmadvent_font_awesome', sfmadvent_url.'libs/font-awesome/font-awesome.min.css');
-		wp_enqueue_style('sfmadvent_font_awesome');
+		//wp_register_style( 'sfmadvent_font_awesome', sfmadvent_url.'libs/font-awesome/font-awesome.min.css');
+		//wp_enqueue_style('sfmadvent_font_awesome');
 
 		/* Custom style */
-		wp_register_style( 'prbreakfast_style', sfmadvent_url.'templates/'.sfmadvent_template.'/css/default.css');
-		wp_enqueue_style('prbreakfast_style');
+		wp_register_style( 'sfmadvent_style', sfmadvent_url.'templates/'.sfmadvent_template.'/css/default.css');
+		wp_enqueue_style('sfmadvent_style');
 
     wp_register_script('snow-js', sfmadvent_url.'js/snow.min.js',array('jquery'));
 		wp_enqueue_script('snow-js');
