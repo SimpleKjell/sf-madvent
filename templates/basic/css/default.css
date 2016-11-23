@@ -162,3 +162,170 @@ z-index: 2;
 /*
 * END KALENDER
 */
+
+
+
+/*
+* Start Form *
+*/
+
+.sfm_form_container .sfm_form input.sfm_input, #sfm_form_send, .sfm_form_container .sfm_form input.sfm_input:focus::-webkit-input-placeholder {
+
+	-webkit-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+
+.sfm_form_container .sfm_form input.sfm_input {
+
+	margin: 1% 0% 0 13%;
+	width: 360px;
+	padding: 20px;
+	display: block;
+	float: left;
+	border: none;
+	background: -webkit-linear-gradient(rgba(255,255,255,0) 99%, #EB6CA3 1%);
+	background: linear-gradient(rgba(255,255,255,0) 99%, #EB6CA3 1%);
+	background-size: 0 100%;
+	background-repeat: no-repeat;
+	color: #333333;
+}
+
+.sfm_form_container .sfm_form input.sfm_input:focus, .sfm_form_select:focus {
+
+	outline: none;
+	background-size: 100% 100%;
+	background-color: #fff !important;
+}
+
+.sfm_form_container .sfm_form input.sfm_input:focus::-webkit-input-placeholder {
+
+	font-size:11px;
+	font-weight: 600;
+	-webkit-transform: translateY(-15px);
+	transform: translateY(-15px);
+	visibility: visible !important;
+	color: #EB6CA3;
+
+}
+
+/* Die Selectbox */
+
+.sfm_form_select {
+
+	display:block;
+	margin: 1% 11% 0 13%;
+	padding: 20px;
+	float: left;
+	color: #333 !important;
+	background: -webkit-linear-gradient(rgba(255,255,255,0) 99%, #EB6CA3 1%);
+	background: linear-gradient(rgba(255,255,255,0) 99%, #EB6CA3 1%);
+	background-size: 0 100%;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+}
+
+/* Die Form Checkbox*/
+
+.sfm_form_checkbox {
+
+	float: left;
+	display: inline-block;
+	margin: 3% 0% 0% 7%;
+}
+
+#sfm_form_checkboxid { opacity: 0; }
+
+.sfm_form_btn {
+
+	float:left;
+	width: 40px;
+	height: 20px;
+	background: #e5e5e5;
+	position: relative;
+	border-radius: 10px;
+}
+
+.sfm_form_btn:before {
+
+	content: "";
+	position: absolute;
+	height: 16px;
+	width: 16px;
+	background: #fff;
+	left: 2px;
+	top: 2px;
+	transition: all 150ms ease-out;
+	border-radius: 10px;
+
+}
+
+/*Funktion um die Checkbox zu switchen*/
+
+input[type=checkbox]:checked + .sfm_form_btn:before { left: 22px; }
+
+input[type=checkbox]:checked + .sfm_form_btn { background: #EB6CA3; }
+
+/* Checkbox Beschreibung */
+
+.sfm_form_checkbox label {
+
+	font-weight: 400 !important;
+	margin-left: 10px;
+	font-size: 13px;
+}
+
+/* Senden Button */
+
+#sfm_form_send {
+
+	background: #dadada;
+	border: none;
+	color: #333;
+	width: 200px;
+	margin: 4% 10% 0% 10%;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight:600;
+	left: 40%;
+	transform: translateX(-50%);
+}
+
+#sfm_form_send:hover, #sfm_form_send:focus {
+
+	background: #EB6CA3 !important;
+	color: #fff;
+
+}
+
+
+/* Abschlussmeldung */
+
+.sfm_form_abschlusscreen {
+	text-align: center;
+	display: none;
+}
+
+.sfm_form_abschlusscreen span {
+
+	color: #EB6CA3;
+	font-weight: 600;
+}
+
+
+.parsley-errors-list {
+	
+	display: none;
+	
+}
+
+
+
+/*
+* End Form *
+*/
+
+
+
