@@ -269,7 +269,7 @@ z-index: 2;
 
 input[type=checkbox]:checked + .sfm_form_btn:before { left: 22px; }
 
-input[type=checkbox]:checked + .sfm_form_btn { background: #EB6CA3; }
+input[type=checkbox]:checked + .sfm_form_btn { background: #72BF44; }
 
 /* Checkbox Beschreibung */
 
@@ -333,7 +333,8 @@ input[type=checkbox]:checked + .sfm_form_btn { background: #EB6CA3; }
 
 .sfm_anmeldentext {
 	/* background: rgba(114,191,68,0.8); */
-	background: rgba(153,153,153,0.8);
+	/*background: rgba(153,153,153,0.8); */
+	background: #72BF44;
 	padding: 1% 0 0 0 !important;
 	margin: 0 0 1% 0 !important;
 }
