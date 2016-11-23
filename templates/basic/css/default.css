@@ -177,14 +177,16 @@ z-index: 2;
 
 .sfm_form_container .sfm_form input.sfm_input {
 
-	margin: 1% 0% 0 13%;
+	margin: 1% 0% 0 8%;
 	width: 360px;
 	padding: 20px;
 	display: block;
 	float: left;
 	border: none;
 	background: -webkit-linear-gradient(rgba(255,255,255,0) 99%, #EB6CA3 1%);
-	background: linear-gradient(rgba(255,255,255,0) 99%, #EB6CA3 1%);
+	background: linear-gradient(rgba(255,255,255,0) 99%, #EB6CA3 1%); 
+	
+	background-color: #fff;
 	background-size: 0 100%;
 	background-repeat: no-repeat;
 	color: #333333;
@@ -233,7 +235,8 @@ z-index: 2;
 
 	float: left;
 	display: inline-block;
-	margin: 3% 0% 0% 7%;
+	margin: 3% 0% 0% 8%;
+	
 }
 
 #sfm_form_checkboxid { opacity: 0; }
@@ -281,25 +284,32 @@ input[type=checkbox]:checked + .sfm_form_btn { background: #EB6CA3; }
 
 #sfm_form_send {
 
-	background: #dadada;
+	background: #72BF44;
 	border: none;
-	color: #333;
+	color: #fff;
 	width: 200px;
 	margin: 4% 10% 0% 10%;
 	cursor: pointer;
 	text-transform: uppercase;
-	font-weight:600;
+	font-weight:800;
 	left: 40%;
+	letter-spacing: 0.075em;
 	transform: translateX(-50%);
 }
 
-#sfm_form_send:hover, #sfm_form_send:focus {
+#sfm_form_send:hover {
 
-	background: #EB6CA3 !important;
-	color: #fff;
+	background: #EC008C !important;
+	
 
 }
 
+#sfm_form_send:focus {
+	
+	background: #FF28A5 !important;
+	
+	
+}
 
 /* Abschlussmeldung */
 
@@ -321,7 +331,12 @@ input[type=checkbox]:checked + .sfm_form_btn { background: #EB6CA3; }
 	
 }
 
-
+.sfm_anmeldentext {
+	/* background: rgba(114,191,68,0.8); */
+	background: rgba(153,153,153,0.8);
+	padding: 1% 0 0 0;
+	margin: 0 0 1% 1% !important;
+}
 
 /*
 * End Form *
