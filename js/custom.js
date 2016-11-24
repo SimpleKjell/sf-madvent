@@ -25,7 +25,24 @@ SFMFrontEnd.prototype = {
 	calendarEffect: function() {
 
 		jQuery('.sfm_calendar_element').hover(function() {
-			//jQuery(this).effect('shake')
+			/*jQuery(this).find('.sfm_left').filter(':not(:animated)').animate({
+				left: '-3%'
+			}, 300);
+
+			jQuery(this).find('.sfm_right').filter(':not(:animated)').animate({
+				right: '-3%'
+			}, 300);
+
+
+		}, function() {
+			jQuery(this).find('.sfm_left').animate({
+				left: '-0%'
+			}, 300);
+
+			jQuery(this).find('.sfm_right').animate({
+				right: '-0%'
+			}, 300);*/
+
 		})
 
 		jQuery('.sfm_calendar_element.toBeOpened').each(function(index) {
