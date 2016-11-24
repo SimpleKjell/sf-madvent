@@ -125,8 +125,9 @@ class SFMShortCode {
     <div class="sfm_calendar_container">
       <div class="sfm_calendar_inner">
         <?php
+        $calendarItem = 115;
         for($i=1; $i<=24; $i++) {
-          $calendarItem = 115;
+
           ?>
             <div class="sfm_calendar_element">
 
