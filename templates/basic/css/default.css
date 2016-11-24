@@ -91,13 +91,17 @@ z-index: 2;
   /*left: 75px;
   background-color: #EC71B0;
   -ms-transition: left 0.5s;
-  -o-transition: left 0.5s;
+  -o-transition: left 0.5s;C
   -webkit-transition: left 0.5s;
   -moz-transition: left 0.5s;
   transition: left 0.5s;*/
 }
+.sfm_calendar_container .sfm_calendar_element.opened .sfm_left, .sfm_calendar_container .sfm_calendar_element.opened .sfm_right {
+  display: none;
+}
 
-.sfm_calendar_container .sfm_calendar_element .sfm_left, .sfm_calendar_container .sfm_calendar_element .sfm_right, .sfm_inner_content {
+
+.sfm_calendar_container .sfm_calendar_element.opened .sfm_left, .sfm_calendar_container .sfm_calendar_element.opened .sfm_right, .sfm_inner_content.openedToday, .sfm_inner_content.toBeOpened {
   display: none;
   /*transform: scale(0);
   transition: all 5s;*/

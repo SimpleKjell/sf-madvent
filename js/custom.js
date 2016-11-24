@@ -28,7 +28,7 @@ SFMFrontEnd.prototype = {
 			//jQuery(this).effect('shake')
 		})
 
-		jQuery('.sfm_calendar_element').each(function(index) {
+		jQuery('.sfm_calendar_element.toBeOpened').each(function(index) {
 
 			//jQuery(this).addClass('animate');
 
@@ -44,7 +44,7 @@ SFMFrontEnd.prototype = {
 		//jQuery('.sfm_calendar_element').toggle( "bounce", { times: 3 },'fast');
 
 
-		jQuery('.sfm_calendar_element').click(function() {
+		jQuery('.sfm_calendar_element.openedToday').click(function() {
 
 			jQuery(this).find('.sfm_left').animate({
 				left: '-100%'

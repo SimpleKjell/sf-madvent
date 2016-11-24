@@ -125,11 +125,24 @@ class SFMShortCode {
     <div class="sfm_calendar_container">
       <div class="sfm_calendar_inner">
         <?php
+        $actualDate = date('j');
+        $actualDate = 10;
         $calendarItems = array(115, 117, 142, 143, 144, 145, 146, 147, 148, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164);
         for($i=1; $i<=24; $i++) {
-          $calendarItem = array_shift($calendarItems);          
+          $calendarItem = array_shift($calendarItems);
+
+
+          if($actualDate > $i) {
+            $calendarClass = 'opened';
+          } else if($actualDate == $i) {
+            $calendarClass = 'openedToday';
+          } else if($actualDate < $i) {
+            $calendarClass = 'toBeOpened';
+          }
+
+
           ?>
-            <div class="sfm_calendar_element opened">
+            <div class="sfm_calendar_element <?php echo $calendarClass;?>">
 
               <div class="sfm_inner_content">
 
