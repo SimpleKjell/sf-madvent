@@ -193,6 +193,12 @@ class SFMShortCode {
         ?>
       </div>
     </div>
+
+    <script>
+    jQuery(document).ready(function() {
+      jQuery.fn.snow();
+    })
+    </script>
     <?php
     //assign the file output to $content variable and clean buffer
 		$content = ob_get_clean();

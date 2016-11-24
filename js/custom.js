@@ -73,8 +73,6 @@ SFMFrontEnd.prototype = {
 			jQuery(this).addClass('hoverEffect');
 		});
 
-
-		jQuery.fn.snow();
 		//jQuery('.sfm_calendar_container')
 
 	},
