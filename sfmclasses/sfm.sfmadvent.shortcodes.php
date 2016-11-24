@@ -127,6 +127,7 @@ class SFMShortCode {
         <?php
         $actualDate = date('j');
         $actualDate = 10;
+        $isLink = true;
         $calendarItems = array(115, 117, 142, 143, 144, 145, 146, 147, 148, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164);
         for($i=1; $i<=24; $i++) {
           $calendarItem = array_shift($calendarItems);
@@ -134,6 +135,7 @@ class SFMShortCode {
 
           if($actualDate > $i) {
             $calendarClass = 'opened';
+            $isLink = false;
           } else if($actualDate == $i) {
             $calendarClass = 'openedToday';
           } else if($actualDate < $i) {
@@ -145,10 +147,22 @@ class SFMShortCode {
             <div class="sfm_calendar_element <?php echo $calendarClass;?>">
 
               <div class="sfm_inner_content">
-
-                <a href="?p=<?php echo $calendarItem;?>">
+                <?php
+                if($isLink) {
+                  ?>
+                    <a href="?p=<?php echo $calendarItem;?>">
+                  <?php
+                }
+                ?>
                   <img src="<?php echo sfmadvent_url.'templates/'.sfmadvent_template.'/img/tag'.$i.'.jpg';?>" />
-                </a>
+                <?php
+                if($isLink) {
+                  ?>
+                    </a>
+                  <?php
+                }
+                ?>
+
               </div>
               <div class="sfm_left">
                 <div class="element_schleife">
