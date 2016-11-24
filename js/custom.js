@@ -53,7 +53,7 @@ SFMFrontEnd.prototype = {
 			jQuery(this).find('.sfm_right').animate({
 				right: '-100%'
 			}, 2500);
-
+			jQuery(this).addClass('hoverEffect');
 		});
 
 
