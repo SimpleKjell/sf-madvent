@@ -126,11 +126,14 @@ class SFMShortCode {
       <div class="sfm_calendar_inner">
         <?php
         for($i=1; $i<=24; $i++) {
+          $calendarItem = 115;
           ?>
             <div class="sfm_calendar_element">
 
               <div class="sfm_inner_content">
-                <img src="<?php echo sfmadvent_url.'templates/'.sfmadvent_template.'/img/tag'.$i.'.jpg';?>" />
+                <a href="?p=<?php echo $calendarItem;?>">
+                  <img src="<?php echo sfmadvent_url.'templates/'.sfmadvent_template.'/img/tag'.$i.'.jpg';?>" />
+                </a>
               </div>
               <div class="sfm_left">
                 <div class="element_schleife">
@@ -155,6 +158,7 @@ class SFMShortCode {
             <div class="clear"></div>
             <?php
           }
+          $calendarItem++;
         }
         ?>
       </div>
