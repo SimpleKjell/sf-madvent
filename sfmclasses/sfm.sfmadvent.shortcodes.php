@@ -138,6 +138,7 @@ class SFMShortCode {
             $isLink = false;
           } else if($actualDate == $i) {
             $calendarClass = 'openedToday';
+            $isLink = true;
           } else if($actualDate < $i) {
             $calendarClass = 'toBeOpened';
           }
