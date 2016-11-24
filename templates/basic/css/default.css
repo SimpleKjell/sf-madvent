@@ -59,31 +59,6 @@
 .sfm_calendar_container .sfm_calendar_element.openedToday {
     cursor: pointer;
 }
-.sfm_calendar_container .sfm_calendar_element.openedToday:hover img, .sfm_calendar_container .sfm_calendar_element.toBeOpened:hover img {
-  animation: shake 0.82s cubic-bezier(.16,.07,.19,.27) both;
-    transform: translate3d(0, 0, 0);
-    backface-visibility: hidden;
-    perspective: 1000px;
-
-}
-
-@keyframes shake {
-  10%, 90% {
-    transform: translate3d(-0.4px, 0, 0);
-  }
-
-  20%, 80% {
-    transform: translate3d(0px, 0, 0);
-  }
-
-  30%, 50%, 70% {
-    transform: translate3d(-0.4px, 0, 0);
-  }
-
-  40%, 60% {
-    transform: translate3d(0.4px, 0, 0);
-  }
-}
 
 
 .sfm_calendar_container .sfm_calendar_element:hover {
