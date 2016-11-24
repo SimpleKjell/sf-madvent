@@ -127,8 +127,7 @@ class SFMShortCode {
         <?php
         $calendarItems = array(115, 117, 142, 143, 144, 145, 146, 147, 148, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164);
         for($i=1; $i<=24; $i++) {
-          $calendarItem = $calendarItems[0];
-          unset($calendarItems[0]);
+          $calendarItem = array_shift($calendarItems);          
           ?>
             <div class="sfm_calendar_element opened">
 
