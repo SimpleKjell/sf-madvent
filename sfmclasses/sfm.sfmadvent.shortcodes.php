@@ -97,7 +97,13 @@ class SFMShortCode {
     		<input class="sfm_input" type="email" id="mail" placeholder="E-Mail" required="">
     		<div class="clear"></div>
 
-    		<div class="sfm_form_checkbox"><label for="sfm_form_checkboxid"><input id="sfm_form_checkboxid" required="" type="checkbox" checked name="newsletter" value="newsletter">Ich habe die AGB's gelesen und verstanden.<div class="sfm_form_btn"></div></label></div>
+    		<div class="sfm_form_checkbox">
+          <label for="sfm_form_checkboxid">
+            <input id="sfm_form_checkboxid" required="" type="checkbox" checked name="newsletter" value="newsletter" />
+            <div class="sfm_form_btn"></div>
+            Ich habe die <a href="/teilnahmebedingungen">AGB's</a> gelesen und verstanden.
+          </label>
+        </div>
     		<div class="clear"></div><input class="sfm_input" type="submit" value="absenden" id="sfm_form_send">
 
     	</form>
