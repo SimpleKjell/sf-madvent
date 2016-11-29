@@ -63,13 +63,17 @@ SFMFrontEnd.prototype = {
 
 		jQuery('.sfm_calendar_element.openedToday').click(function() {
 
+			var index_day = jQuery(this).attr('data-day');
 			jQuery(this).find('.sfm_left').animate({
-				left: '-100%'
-			}, 2500);
+				left: '-52%'
+			}, 2000);
 
 			jQuery(this).find('.sfm_right').animate({
-				right: '-100%'
-			}, 2500);
+				right: '-52%'
+			}, 2000, function() {
+				jQuery('.sfm_calendar_inner').hide('slow');
+				jQuery('.day_'+index_day).show('slow');
+			});
 			jQuery(this).addClass('hoverEffect');
 		});
 
