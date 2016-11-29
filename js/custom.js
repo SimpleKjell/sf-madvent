@@ -61,10 +61,9 @@ SFMFrontEnd.prototype = {
 		//jQuery('.sfm_calendar_element').toggle( "bounce", { times: 3 },'fast');
 
 
-		jQuery('.sfm_calendar_element.openedToday').click(function() {
+		jQuery('.sfm_calendar_element.openedToday').click(function(evt) {
 
-
-
+			var that = this;
 			var index_day = jQuery(this).attr('data-day');
 
 
@@ -93,18 +92,51 @@ SFMFrontEnd.prototype = {
 				}
 			}
 
-			jQuery(this).find('.sfm_left').animate({
-				left: '-52%'
-			}, 2000);
+			//jQuery(this).unbind('click');
+			if(!jQuery(this).hasClass('hoverEffect')) {
 
-			jQuery(this).find('.sfm_right').animate({
-				right: '-52%'
-			}, 2000, function() {
-				//jQuery('.sfm_calendar_inner').hide('slow');
-				jQuery('.day_'+index_day).appendTo('.sfm_range_'+range).show('slow');
-			});
-			jQuery(this).addClass('hoverEffect');
+
+
+
+				jQuery(this).find('.sfm_left').animate({
+					left: '-52%'
+				}, 2000);
+
+				jQuery(this).find('.sfm_right').animate({
+					right: '-52%'
+				}, 2000, function() {
+					//jQuery('.sfm_calendar_inner').hide('slow');
+					jQuery('.day_'+index_day).appendTo('.sfm_range_'+range).show('slow');
+					jQuery(that).addClass('hoverEffect');
+					//jQuery(that).addClass('opened');
+					//jQuery(that).removeClass('openedToday');
+					//jQuery(that).bind(evt);
+				});
+			} else {
+
+				jQuery(this).find('.sfm_left').animate({
+					left: '0%'
+				}, 1000);
+
+				jQuery(this).find('.sfm_right').animate({
+					right: '0%'
+				}, 1000, function() {
+
+					jQuery('.sfm_range_'+range+ ' > div').hide('slow');
+					jQuery(that).removeClass('hoverEffect');
+				});
+			}
+
+
 		});
+
+
+
+
+
+
+
+
 
 		//jQuery('.sfm_calendar_container')
 

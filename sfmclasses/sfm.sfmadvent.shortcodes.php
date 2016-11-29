@@ -353,17 +353,17 @@ class SFMShortCode {
               <div class="sfm_inner_content">
                 <?php
                 if($isLink) {
-                  ?>
+                  /*?>
                     <a href="?p=<?php echo $calendarItem;?>">
-                  <?php
+                  <?php*/
                 }
                 ?>
                   <img src="<?php echo sfmadvent_url.'templates/'.sfmadvent_template.'/img/tag'.$i.'.jpg';?>" />
                 <?php
                 if($isLink) {
-                  ?>
+                  /*?>
                     </a>
-                  <?php
+                  <?php*/
                 }
                 ?>
 

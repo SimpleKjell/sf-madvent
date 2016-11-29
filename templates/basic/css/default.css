@@ -189,8 +189,11 @@ z-index: 2;
 
 .sfm_single_item_full {
   display: none;
+  margin-top: 25px;
 }
-
+.sfm_show_single_item_full {
+  text-align: left;
+}
 /*
 * END KALENDER
 */
@@ -387,4 +390,10 @@ input[type=checkbox]:checked + .sfm_form_btn { background: #72BF44; }
 	h2 { text-align: center;}
 	.sfm_form_btn { margin: 0 2% 0 5%; }
 	.sfm_form_checkbox label { margin-left: 10%; }
+
+}
+@media screen and (max-width: 767px) {
+  .sfm_show_single_item_full {
+    text-align: center;
+  }
 }
