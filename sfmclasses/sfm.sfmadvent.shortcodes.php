@@ -112,7 +112,7 @@ class SFMShortCode {
       </script>
 		<div class="clear"></div>
     	<div class="sfm_form_abschlusscreen">
-			<span>Vielen Dank für Ihr Interesse!</span><br>Der jeweilige Ansprechpartner setzt sich mit Ihnen in Verbindung.
+			<span>Du bist mit dabei!</span><br>Vielen Dank für Dein Interesse. Zu Gewinnen gibt es Filialgutscheine: 1x300€, 1x100€, 1x50€ !
     	</div>
     </div>
     <?php
