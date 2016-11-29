@@ -63,7 +63,36 @@ SFMFrontEnd.prototype = {
 
 		jQuery('.sfm_calendar_element.openedToday').click(function() {
 
+
+
 			var index_day = jQuery(this).attr('data-day');
+
+
+			var range = 4;
+			if(index_day %4 == 0) {
+				range = index_day;
+			} else {
+				var range_day = index_day+1;
+				if(range_day %4 == 0) {
+					range = range_day;
+				} else {
+					range_day = range_day+1;
+					if(range_day %4 == 0) {
+						range = range_day;
+					} else {
+						range_day = range_day+1;
+						if(range_day %4 == 0) {
+							range = range_day;
+						} else {
+							range_day = range_day+1;
+							if(range_day %4 == 0) {
+								range = range_day;
+							}
+						}
+					}
+				}
+			}
+
 			jQuery(this).find('.sfm_left').animate({
 				left: '-52%'
 			}, 2000);
@@ -71,8 +100,8 @@ SFMFrontEnd.prototype = {
 			jQuery(this).find('.sfm_right').animate({
 				right: '-52%'
 			}, 2000, function() {
-				jQuery('.sfm_calendar_inner').hide('slow');
-				jQuery('.day_'+index_day).show('slow');
+				//jQuery('.sfm_calendar_inner').hide('slow');
+				jQuery('.day_'+index_day).appendTo('.sfm_range_'+range).show('slow');
 			});
 			jQuery(this).addClass('hoverEffect');
 		});

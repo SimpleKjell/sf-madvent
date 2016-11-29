@@ -328,7 +328,7 @@ class SFMShortCode {
       <div class="sfm_calendar_inner">
         <?php
         $actualDate = date('j');
-        $actualDate = 12;
+        $actualDate = 4;
         $isLink = true;
 
         for($i=1; $i<=24; $i++) {
@@ -336,7 +336,8 @@ class SFMShortCode {
 
 
           if($actualDate > $i) {
-            $calendarClass = 'opened';
+            //$calendarClass = 'opened';
+            $calendarClass = 'toBeOpened';
             $isLink = false;
           } else if($actualDate == $i) {
             $calendarClass = 'openedToday';
@@ -388,6 +389,9 @@ class SFMShortCode {
           if($i %4 == 0) {
             ?>
             <div class="clear"></div>
+            <div class="sfm_range_<?php echo $i;?> sfm_show_single_item_full">
+
+            </div>
             <?php
           }
           $calendarItem++;
