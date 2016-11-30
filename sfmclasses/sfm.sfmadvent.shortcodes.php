@@ -338,16 +338,16 @@ class SFMShortCode {
           if($actualDate > $i) {
             //$calendarClass = 'opened';
             //dashier
-            $calendarClass = 'toBeOpened';
-            //$calendarClass = 'openedToday';
+            //$calendarClass = 'toBeOpened';
+            $calendarClass = 'openedToday';
             $isLink = false;
           } else if($actualDate == $i) {
             $calendarClass = 'openedToday';
             $isLink = true;
           } else if($actualDate < $i) {
             //dashier
-            $calendarClass = 'toBeOpened';
-            //$calendarClass = 'openedToday';
+            //$calendarClass = 'toBeOpened';
+            $calendarClass = 'openedToday';
           }
 
 
