@@ -155,7 +155,7 @@ class SFMShortCode {
       <div class="sfm_single_item_full day_4">
         <div class="wrap mcb-wrap one  valign-top clearfix" style=""><div class="mcb-wrap-inner"><div class="column mcb-column two-fifth column_image "><div class="image_frame image_item no_link scale-with-grid no_border"><div class="image_wrapper"><img class="scale-with-grid" src="http://mmkalender.wpdev.at/wp-content/uploads/2016/11/04.12.2016.jpg" alt="04-12-2016" width="360" height="280"></div></div>
         </div><div class="column mcb-column three-fifth column_column  column-margin-"><div class="column_attr clearfix" style=" padding:50px 0 0 0;"><h3>Kettler Laufrad</h3>
-        Das heutige Kalendertürchen bringt Euch einen Gutschein für das Kettler Laufrad. Mit unserem Code kostet es NUR HEUTE statt 59,90 nur 29,90! (Artikelnummer 08180015/01)<br><br>
+        Das heutige Kalendertürchen bringt Euch einen Gutschein für das Kettler Laufrad. Mit unserem Code kostet es NUR HEUTE statt 59,90 nur 19,90! (Artikelnummer 08180015/01)<br><br>
         <b style="color:#ec008c;">Gutscheincode: adv04</b><br><br>
         <a href="https://www.moemax.de/baby-kinderzimmer/spielwaren/c6c3/kettler-hks/kettler-laufrad-speedy-emma.produkt-000818001501"><b>Im Shop ansehen &gt;</b></a></div></div></div></div>
       </div>
@@ -196,10 +196,10 @@ class SFMShortCode {
         <a href="https://www.moemax.de/baby-kinderzimmer/kinderzimmer/kinderzimmermoebel/c6c2c3/kindersitzgruppe-in-blau-gelb-gruen-rot-weiss.produkt-001803040101"><b>Im Shop ansehen &gt;</b></a></div></div></div></div>
       </div>
       <div class="sfm_single_item_full day_11">
-        <div class="wrap mcb-wrap one  valign-top clearfix" style=""><div class="mcb-wrap-inner"><div class="column mcb-column two-fifth column_image "><div class="image_frame image_item no_link scale-with-grid no_border"><div class="image_wrapper"><img class="scale-with-grid" src="http://mmkalender.wpdev.at/wp-content/uploads/2016/11/11.12.2016.jpg" alt="11-12-2016" width="360" height="280"></div></div></div><div class="column mcb-column three-fifth column_column  column-margin-"><div class="column_attr clearfix" style=" padding:50px 0 0 0;"><h3>Nachtmann Gläserset</h3>
-        Mit unserem heutigen Gutscheincode gibt es das Nachtmann Gläserset NUR HEUTE um 29,00 (statt 89,00). (Artikelnummer: 45460165/01)<br><br>
+        <div class="wrap mcb-wrap one  valign-top clearfix" style=""><div class="mcb-wrap-inner"><div class="column mcb-column two-fifth column_image "><div class="image_frame image_item no_link scale-with-grid no_border"><div class="image_wrapper"><img class="scale-with-grid" src="http://mmkalender.wpdev.at/wp-content/uploads/2016/11/besteckset.jpg" alt="11-12-2016" width="360" height="280"></div></div></div><div class="column mcb-column three-fifth column_column  column-margin-"><div class="column_attr clearfix" style=" padding:50px 0 0 0;"><h3>Nachtmann Gläserset</h3>
+        Mit unserem heutigen Gutscheincode gibt es das Besteckset Vienna NUR HEUTE für 39,00 (statt 189,00). (Artikelnummer: 3050004701)<br><br>
         <b style="color:#ec008c;">Gutscheincode: adv11</b><br><br>
-        <a href="https://www.moemax.de/haushaltswaren/geschirr-glaeser/glaeser/c10c1c2/nachtmann/glaeserset-nachtmann.produkt-004546016501"><b>Im Shop ansehen &gt;</b></a></div></div></div></div>
+        <a href="https://www.moemax.de/haushaltswaren/besteck/c10c2/berndorf/besteckset-vienna-berndorf-30-tlg-.produkt-003050004701"><b>Im Shop ansehen &gt;</b></a></div></div></div></div>
       </div>
       <div class="sfm_single_item_full day_12">
         <div class="wrap mcb-wrap one  valign-top clearfix" style=""><div class="mcb-wrap-inner"><div class="column mcb-column two-fifth column_image "><div class="image_frame image_item no_link scale-with-grid no_border"><div class="image_wrapper"><img class="scale-with-grid" src="http://mmkalender.wpdev.at/wp-content/uploads/2016/11/12.12.2016.jpg" alt="12-12-2016" width="360" height="280"></div></div>
@@ -252,14 +252,14 @@ class SFMShortCode {
         <a href="https://www.moemax.de/baby-kinderzimmer/spielwaren/c6c3/elektroscooter-thomas-in-weiss-mit-faltrahmen.produkt-008021008102"><b>Im Shop ansehen &gt;</b></a></div></div></div></div>
       </div>
       <div class="sfm_single_item_full day_18">
-        <div class="wrap mcb-wrap one  valign-top clearfix" style=""><div class="mcb-wrap-inner"><div class="column mcb-column two-fifth column_image "><div class="image_frame image_item no_link scale-with-grid no_border"><div class="image_wrapper"><img class="scale-with-grid" src="http://mmkalender.wpdev.at/wp-content/uploads/2016/11/18.12.2016.jpg" alt="18-12-2016" width="360" height="280"></div></div>
+        <div class="wrap mcb-wrap one  valign-top clearfix" style=""><div class="mcb-wrap-inner"><div class="column mcb-column two-fifth column_image "><div class="image_frame image_item no_link scale-with-grid no_border"><div class="image_wrapper"><img class="scale-with-grid" src="http://mmkalender.wpdev.at/wp-content/uploads/2016/11/stabmixer.jpg" alt="18-12-2016" width="360" height="280"></div></div>
         </div><div class="column mcb-column three-fifth column_column  column-margin-"><div class="column_attr clearfix" style=" padding:50px 0 0 0;"><h3>Nachtmann Schüsselset</h3>
 
-        Das heutige Kalendertürchen bringt Euch einen Gutschein für das Nachtmann Schüsselset. Das gibt es NUR HEUTE mit Code um nur 14,90 (statt 53,10). Artikelnummer (45460164/01)<br><br>
+        Das heutige Kalendertürchen bringt Euch einen Gutschein für den Stabmixer Gorenje. Diesen gibt es NUR HEUTE mit Code um nur 19,90 (statt 49,00). Artikelnummer (111005301)<br><br>
 
         <b style="color:#ec008c;">Gutscheincode: adv18</b><br><br>
 
-        <a href="https://www.moemax.de/haushaltswaren/geschirr-glaeser/geschirr/c10c1c1/nachtmann/nachtmann-schuesselset-aus-glas-5-tlg-.produkt-004546016401"><b>Im Shop ansehen &gt;</b></a></div></div></div></div>
+        <a href="https://www.moemax.de/haushaltswaren/haushaltselektronik/mixer/c10c6c1/gorenje/gorenje-stabmixer.produkt-000111005301"><b>Im Shop ansehen &gt;</b></a></div></div></div></div>
       </div>
       <div class="sfm_single_item_full day_19">
         <div class="wrap mcb-wrap one  valign-top clearfix" style=""><div class="mcb-wrap-inner"><div class="column mcb-column two-fifth column_image "><div class="image_frame image_item no_link scale-with-grid no_border"><div class="image_wrapper"><img class="scale-with-grid" src="http://mmkalender.wpdev.at/wp-content/uploads/2016/11/19.12.2016.jpg" alt="19-12-2016" width="360" height="280"></div></div>
@@ -337,13 +337,15 @@ class SFMShortCode {
 
           if($actualDate > $i) {
             //$calendarClass = 'opened';
-            $calendarClass = 'toBeOpened';
+            //dashier$calendarClass = 'toBeOpened';
+            $calendarClass = 'openedToday';
             $isLink = false;
           } else if($actualDate == $i) {
             $calendarClass = 'openedToday';
             $isLink = true;
           } else if($actualDate < $i) {
-            $calendarClass = 'toBeOpened';
+            //dashier$calendarClass = 'toBeOpened';
+            $calendarClass = 'openedToday';
           }
 
 
