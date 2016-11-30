@@ -197,7 +197,7 @@ class SFMShortCode {
       </div>
       <div class="sfm_single_item_full day_11">
         <div class="wrap mcb-wrap one  valign-top clearfix" style=""><div class="mcb-wrap-inner"><div class="column mcb-column two-fifth column_image "><div class="image_frame image_item no_link scale-with-grid no_border"><div class="image_wrapper"><img class="scale-with-grid" src="http://mmkalender.wpdev.at/wp-content/uploads/2016/11/besteckset.jpg" alt="11-12-2016" width="360" height="280"></div></div></div><div class="column mcb-column three-fifth column_column  column-margin-"><div class="column_attr clearfix" style=" padding:50px 0 0 0;"><h3>Besteckset Vienna</h3>
-        Mit unserem heutigen Gutscheincode gibt es das Besteckset Vienna NUR HEUTE für 39,00 (statt 189,00). (Artikelnummer: 3050004701)<br><br>
+        Mit unserem heutigen Gutscheincode gibt es das Besteckset Vienna NUR HEUTE um 39,00 (statt 189,00). (Artikelnummer: 3050004701)<br><br>
         <b style="color:#ec008c;">Gutscheincode: adv11</b><br><br>
         <a href="https://www.moemax.de/haushaltswaren/besteck/c10c2/berndorf/besteckset-vienna-berndorf-30-tlg-.produkt-003050004701"><b>Im Shop ansehen &gt;</b></a></div></div></div></div>
       </div>
