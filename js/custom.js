@@ -65,25 +65,33 @@ SFMFrontEnd.prototype = {
 
 			var that = this;
 			var index_day = jQuery(this).attr('data-day');
-
+			index_day = parseInt(index_day);
 
 			var range = 4;
 			if(index_day %4 == 0) {
 				range = index_day;
 			} else {
+
 				var range_day = index_day+1;
+
 				if(range_day %4 == 0) {
 					range = range_day;
 				} else {
+
 					range_day = range_day+1;
+
 					if(range_day %4 == 0) {
 						range = range_day;
 					} else {
+
 						range_day = range_day+1;
+
 						if(range_day %4 == 0) {
 							range = range_day;
 						} else {
+
 							range_day = range_day+1;
+
 							if(range_day %4 == 0) {
 								range = range_day;
 							}
