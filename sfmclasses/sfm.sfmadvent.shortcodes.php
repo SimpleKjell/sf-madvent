@@ -362,7 +362,7 @@ class SFMShortCode {
                   <?php*/
                 }
                 ?>
-                  <img src="<?php echo sfmadvent_url.'templates/'.sfmadvent_template.'/img/tag'.$i.'.jpg';?>" />
+                  <img draggable="false" src="<?php echo sfmadvent_url.'templates/'.sfmadvent_template.'/img/tag'.$i.'.jpg';?>" />
                 <?php
                 if($isLink) {
                   /*?>
