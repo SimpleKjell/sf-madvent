@@ -374,7 +374,7 @@ class SFMShortCode {
               </div>
               <div class="sfm_left">
                 <div class="element_schleife">
-                  <img src="<?php echo sfmadvent_url.'templates/'.sfmadvent_template.'/img/schleife.png';?>" />
+                  <img draggable="false" src="<?php echo sfmadvent_url.'templates/'.sfmadvent_template.'/img/schleife.png';?>" />
                 </div>
                 <div class="element_inner">
                   <?php echo $i;?>
@@ -382,7 +382,7 @@ class SFMShortCode {
               </div>
               <div class="sfm_right">
                 <div class="element_schleife">
-                  <img src="<?php echo sfmadvent_url.'templates/'.sfmadvent_template.'/img/schleife.png';?>" />
+                  <img draggable="false" src="<?php echo sfmadvent_url.'templates/'.sfmadvent_template.'/img/schleife.png';?>" />
                 </div>
                 <div class="element_inner">
                   <?php echo $i;?>
